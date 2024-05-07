@@ -1,0 +1,69 @@
+.body {
+  font: bold;
+}
+.calculator {
+  width: 20rem;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+  padding-top: 0.25rem;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-circle-1 {
+  color: yellow;
+}
+.nav-circle-2 {
+  color: green;
+}
+.nav-circle-3 {
+  color: red;
+}
+.container {
+  --bs-gutter-x: 0rem;
+}
+
+.display {
+  height: 120px;
+  background-color: #f3f3f3;
+}
+.display-num {
+  height: 50px;
+}
+.button {
+  background-color: #f3f3f3;
+}
+.cross {
+  background-color: red;
+}
+.size {
+  width: 57px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+.icon {
+  padding-top: 0px;
+}
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.col-x {
+}
+.last-row {
+  margin-top: 8px;
+}
+.space {
+  width: 57px;
+  height: 70px;
+}
